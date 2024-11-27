@@ -1,0 +1,51 @@
+.typing-game {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.words-display {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.word {
+  margin-right: 10px;
+  color: #666;
+}
+
+.word.current {
+  color: #000;
+  font-weight: bold;
+}
+
+.word.completed {
+  color: #4CAF50;
+}
+
+.typing-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+}
+
+.results {
+  text-align: center;
+  padding: 20px;
+}
+
+.results button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} 
